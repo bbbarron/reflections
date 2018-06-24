@@ -1,0 +1,39 @@
+Lesson_1_reflections.txt
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It allowed you to ignore the majority of code which was exactly the same and did not need to be reviewed. It shows you concisely, side by side exactly what the differences are.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+ You can easily see the process you went through to finish and complete your code. On review, it would help you identify and avoid common repeated mistakes in your code. You will eventually  code more efficiently, by learning from past mistakes.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    There is an overhead. The time you must invest in learning, looking up and then implementing the Git system. You do run some risk of working or deleting the wrong files. On the plus side, you can recover older versions of your program if you later find you have made a mistake.  Manually saving let you choose to save at logical ponts ie when you have completed a bug fix, or a typo, or a related feature set.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+First off it encourages you to separate programs into smaller more manageable pieces. But, it also bundles your “pieces” together so that you and and others can see that they are related and belong together.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+When in the repository, type git log to see a listing of all the various commits. Read through the messages associated with each of the commits until you see the one you are interested in. Use git diff followed by the commit id of the first followed by the commit id of the second. The listing that follows will identify the change that were made between the two version.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+With regular commits, you can safely restore to any previous position of file condition. You have no worries if you committed before you made the new changes. Simply checkout the previous commit to undo your changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+ I am beginning to use Git for the storage of all my programming, dat science and practice programs. Particularly the Euler problems.
