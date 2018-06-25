@@ -16,8 +16,10 @@ command without any other inputs. This will show you the dirrence between what y
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are ideal for letting you test changes or create new features without the danger of possibly damaging your stable working master version of the program
 
 How do the diagrams help you visualize the branch structure?
+It shows you clearly and quickly how many branches you have and how they are related to each other. It also shows you any "loose ends" or unreachable commits that you have experimented with.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
