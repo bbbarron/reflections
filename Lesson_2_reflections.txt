@@ -23,6 +23,7 @@ It shows you clearly and quickly how many branches you have and how they are rel
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+We show it that way to indicate that we are merge a new branch INTO the current or active commit (branch). The result is all of the commits from all the branches are added to the log. Since merging is done into the current active commit, you only need to specify the other branches you are commiting. For example, "git merge xxx" will merge the xxx branch into whatever is current.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
