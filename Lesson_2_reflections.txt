@@ -27,3 +27,4 @@ We show it that way to indicate that we are merge a new branch INTO the current 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+The automatic feature in merging is wonderful. It save you the time of sorting through files that haven't changed or been modified. The manual merging is better as it allows the authors to decide how best to resolve a conflict, or possibly go back to the original.
